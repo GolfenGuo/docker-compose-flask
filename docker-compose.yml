@@ -1,0 +1,12 @@
+flask1:
+    build: ./web
+    ports:
+        - "5000:5000"
+flask2:
+    build: ./web
+    ports:
+        - "5001:5000"
+flask3:
+    build: ./web
+    ports:
+        - "5002:5000"
